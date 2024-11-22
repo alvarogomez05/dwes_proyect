@@ -17,7 +17,7 @@ session_start();
 
     <div class="container">
         <div class="form-container">
-            <h2 id="Titulo">Iniciar Sesión</h2>
+            <h2 id="titulo">Iniciar Sesión</h2>
             <form action="./pages/destino.php" class="form" method="POST" id="formulario1">
                 <div>
                     <label for="usuario">Usuario</label>
@@ -40,6 +40,7 @@ session_start();
             </form>
 
             <!-- Formulario de Registro -->
+            <h2 id="tituloRegistro" class="titulo">Registrar</h2>
             <form action="./pages/registro.php" class="form form2" method="POST" id="formulario2">
                 <div>
                     <label for="usuarioRegistro">Usuario</label>
@@ -57,7 +58,7 @@ session_start();
                 <input type="submit" value="Registrar" id="registrar" class="registrar">
             </form>
 
-            
+
         </div>
 
     </div>
