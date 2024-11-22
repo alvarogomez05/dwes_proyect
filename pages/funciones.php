@@ -74,5 +74,3 @@ function delete()
         echo "Error en el borrado de tipo " . $excepcion->getMessage();
     }
 }
-
-?>

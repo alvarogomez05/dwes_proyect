@@ -5,30 +5,30 @@ let titulo = document.getElementById("titulo")
 let rol = document.getElementById("rol")
 let registraar = document.getElementById("registrar")
 let form1 = document.getElementById("formulario1")
-let pass=document.getElementById("contrasena")
-let form2=document.getElementById("formulario2")
-let titulo2=document.getElementById("tituloRegistro")
-let volver=document.getElementById("volver")
+let pass = document.getElementById("contrasena")
+let form2 = document.getElementById("formulario2")
+let titulo2 = document.getElementById("tituloRegistro")
+let volver = document.getElementById("volver")
 //Funcion
 
 const registrarse = (event) => {
     if (event.target.nodeName == "INPUT") {
-        form1.style.display="none"
+        form1.style.display = "none"
         usuario.style.display = "none"
         pass.style.display = "none"
-        titulo.style.display="none"
+        titulo.style.display = "none"
         //Aparece el segundo formulario
-        rol.style.display="block"
-        titulo2.style.display="block"
-        form2.style.display="block"
-        registraar.style.display="block"
-        volver.style.display="block"
+        rol.style.display = "block"
+        titulo2.style.display = "block"
+        form2.style.display = "block"
+        registraar.style.display = "block"
+        volver.style.display = "block"
     }
 }
 
 
-const registrar=()=>{
-    if(event.target.nodeName=="INPUT"){
+const registrar = (event) => {
+    if (event.target.nodeName == "INPUT") {
         rol.style.display = "none"
         titulo2.style.display = "none"
         form2.style.display = "none"
@@ -41,10 +41,10 @@ const registrar=()=>{
     }
 }
 
-const volverLogin=()=>{
+const volverLogin = () => {
     location.reload()
 }
 //Listener
 register.addEventListener("click", registrarse)
-registraar.addEventListener("click",registrar)
-volver.addEventListener("click",volverLogin)
+registraar.addEventListener("click", registrar)
+volver.addEventListener("click", volverLogin)
