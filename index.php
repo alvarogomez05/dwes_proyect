@@ -1,4 +1,3 @@
-
 <?php
 //iniciamos la sesion
 session_start();
@@ -30,9 +29,9 @@ session_start();
                 </div>
 
                 <?php
-                    if(isset($_SESSION['error'])){
-                        echo "<p class='error'> ". $_SESSION['error'] . " </p>";
-                    }
+                if (isset($_SESSION['error'])) {
+                    echo "<p class='error'> " . $_SESSION['error'] . " </p>";
+                }
                 ?>
 
                 <input type="submit" value="iniciar Sesión">
@@ -41,6 +40,23 @@ session_start();
             </form>
 
             <!-- Formulario de Registro -->
+            <form action="./pages/registro.php" class="form form2" method="POST" id="formulario2">
+                <div>
+                    <label for="usuarioRegistro">Usuario</label>
+                    <input type="text" id="usuarioRegistro" name="nombreRegistro" required>
+                </div>
+
+                <div>
+                    <label for="contrasenaRegistro">Contraseña</label>
+                    <input type="password" id="contrasenaRegistro" name="passwordRegistro" required>
+                </div>
+                <div id="rol" class="rol">
+                    <label for="rol">Rol</label>
+                    <input type="text" id="rol" name="rol" required>
+                </div>
+                <input type="submit" value="Registrar" id="registrar" class="registrar">
+            </form>
+
             <form action="./pages/registro.php" class="form form2" method="POST" id="formulario2">
                 <div>
                     <label for="usuarioRegistro">Usuario</label>
