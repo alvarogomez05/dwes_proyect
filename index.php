@@ -56,6 +56,7 @@ session_start();
                     <input type="text" id="rol" name="rol" required>
                 </div>
                 <input type="submit" value="Registrar" id="registrar" class="registrar">
+                <input type="submit" value="Volver" id="volver" class="registrar">
             </form>
 
 
