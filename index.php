@@ -57,22 +57,7 @@ session_start();
                 <input type="submit" value="Registrar" id="registrar" class="registrar">
             </form>
 
-            <form action="./pages/registro.php" class="form form2" method="POST" id="formulario2">
-                <div>
-                    <label for="usuarioRegistro">Usuario</label>
-                    <input type="text" id="usuarioRegistro" name="nombreRegistro" required>
-                </div>
-
-                <div>
-                    <label for="contrasenaRegistro">Contraseña</label>
-                    <input type="password" id="contrasenaRegistro" name="passwordRegistro" required>
-                </div>
-                <div id="rol" class="rol">
-                    <label for="rol">Rol</label>
-                    <input type="text" id="rol" name="rol" required>
-                </div>
-                <input type="submit" value="Registrar" id="registrar" class="registrar">
-            </form>
+            
         </div>
 
     </div>
