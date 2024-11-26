@@ -18,7 +18,7 @@
     <!-- header -->
     <header class="header">
         <!-- imagen de perfil para el usuario -->
-        <img class="header__img" src="" alt="">
+        <img class="header__img" src="../assets/images/logo.png" alt="imagen de usuario">
 
         <div class="header__menu">
             <nav class="header__nav">
@@ -32,6 +32,29 @@
         </div>
     </header>
     <div class="container">
+            <!-- aqui van las opciones que tiene el usuario -->
+        <main class="main">
+            <article class="card">
+                <h2 class="card__title"></h2>
+                <p class="card__text"></p>
+                <a href="" class="card__btn"></a>
+            </article>
+            <article class="card">
+                <h2 class="card__title"></h2>
+                <p class="card__text"></p>
+                <a href="" class="card__btn"></a>
+            </article>
+            <article class="card">
+                <h2 class="card__title"></h2>
+                <p class="card__text"></p>
+                <a href="" class="card__btn"></a>
+            </article>
+            <article class="card">
+                <h2 class="card__title"></h2>
+                <p class="card__text"></p>
+                <a href="" class="card__btn"></a>
+            </article>
+        </main>
 
     </div>
 
