@@ -45,9 +45,11 @@
             </p>
             <!-- este enlace le permitira al usuario modificar sus credenciales -->
             <!-- Con js al hacer click en este enlace aparecerá la ventana modal con el formulario -->
-            <a href="" class="aside__link">INFO</a>
+            <div class="aside__box">
+                <a href="" class="aside__link">INFO</a>
 
-            <a href="cerra_sesion.php" class="aside__link">Cerrar sesion</a>
+                <a href="cerrar_sesion.php" class="aside__link">Cerrar sesion</a>
+            </div>
 
 
         </aside>
