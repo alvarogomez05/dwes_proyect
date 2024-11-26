@@ -17,7 +17,7 @@
     ?>
     <!-- header -->
     <header class="header">
-        <!-- imagen de perfil para el usuario -->
+        <!-- imagen del logo -->
         <img class="header__img" src="../assets/images/logo.png" alt="imagen de usuario">
 
         <div class="header__menu">
@@ -32,27 +32,38 @@
         </div>
     </header>
     <div class="container">
-            <!-- aqui van las opciones que tiene el usuario -->
+        <aside class="aside">
+            <!-- imagen del usuario -->
+            <img src="../assets/images/user.png" alt="">
+            <p class="aside__name">
+                <?php
+
+                echo $_SESSION['user'];
+
+                ?>
+            </p>
+        </aside>
+        <!-- aqui van las opciones que tiene el usuario -->
         <main class="main">
             <article class="card">
-                <h2 class="card__title"></h2>
-                <p class="card__text"></p>
-                <a href="" class="card__btn"></a>
+                <h2 class="card__title">Puntuaciones</h2>
+                <p class="card__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel numquam magnam, unde rerum dolores inventore aliquam. Cum amet nobis veritatis dicta perferendis, omnis inventore minus commodi facere beatae esse eaque?</p>
+                <a href="" class="card__btn">ver puntos</a>
             </article>
             <article class="card">
-                <h2 class="card__title"></h2>
-                <p class="card__text"></p>
-                <a href="" class="card__btn"></a>
+                <h2 class="card__title">Pilotos</h2>
+                <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati animi voluptates neque? Possimus pariatur ipsum sint magni quia? Delectus deserunt iure sed ea consectetur natus nobis dolore maiores, amet praesentium!</p>
+                <a href="" class="card__btn">ver pilotos</a>
             </article>
             <article class="card">
-                <h2 class="card__title"></h2>
-                <p class="card__text"></p>
-                <a href="" class="card__btn"></a>
+                <h2 class="card__title">Equipos</h2>
+                <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum recusandae neque quis, earum maiores inventore magni laudantium tenetur autem.</p>
+                <a href="" class="card__btn">ver equipos</a>
             </article>
             <article class="card">
-                <h2 class="card__title"></h2>
-                <p class="card__text"></p>
-                <a href="" class="card__btn"></a>
+                <h2 class="card__title">Circuitos</h2>
+                <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum in quos fugiat. Expedita maxime corporis laborum, possimus sequi vel dolore unde sint exercitationem. Error distinctio, dolor voluptatum id laborum enim.</p>
+                <a href="" class="card__btn">ver circuitos</a>
             </article>
         </main>
 
