@@ -17,12 +17,13 @@ if (isset($_POST['passwordRegistro'])) {
     $password = $_POST['passwordRegistro'];
 }
 
-        $rol = 'R';
+$rol = 'R';
 
 
 try {
     $filasInsertadas = $pdo->exec("INSERT INTO usuario
     VALUES(   '$usuario'  ,  '$password' ,  '$rol'  );");
+    header("location:../index.php");
 } catch (PDOException $excepcion) {
     echo "Error en la inserción de tipo " . $excepcion->getMessage();
 }
