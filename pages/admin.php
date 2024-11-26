@@ -36,12 +36,14 @@
             <!-- imagen del usuario -->
             <img src="../assets/images/user.png" alt="">
             <p class="aside__name">
-                <?php
+                admin
+                <!-- <?php
 
-                echo $_SESSION['user'];
+                        echo $_SESSION['user'];
 
-                ?>
+                        ?> -->
             </p>
+
         </aside>
         <!-- aqui van las opciones que tiene el usuario -->
         <main class="main">
