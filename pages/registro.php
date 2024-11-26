@@ -17,14 +17,8 @@ if (isset($_POST['passwordRegistro'])) {
     $password = $_POST['passwordRegistro'];
 }
 
-if (isset($_POST['rol'])) {
-    $rol = $_POST['rol'];
-    //prueba de rol
-    if ($rol !== 'A' && $rol !== 'R') {
-        //ponemos el valor predeterminado
         $rol = 'R';
-    }
-}
+
 
 try {
     $filasInsertadas = $pdo->exec("INSERT INTO usuario

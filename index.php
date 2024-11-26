@@ -52,8 +52,6 @@ session_start();
                     <input type="password" id="contrasenaRegistro" name="passwordRegistro" required>
                 </div>
                 <div id="rol" class="rol">
-                    <label for="rol">Rol</label>
-                    <input type="text" id="rol" name="rol" required>
                 </div>
                 <input type="submit" value="Registrar" id="registrar" class="registrar">
                 <input type="submit" value="Volver" id="volver" class="registrar">

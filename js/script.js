@@ -2,7 +2,6 @@
 let register = document.getElementById("register")
 let iniciarSesion = document.getElementById("iniciarSesion")
 let titulo = document.getElementById("titulo")
-let rol = document.getElementById("rol")
 let registraar = document.getElementById("registrar")
 let form1 = document.getElementById("formulario1")
 let pass = document.getElementById("contrasena")
@@ -18,7 +17,6 @@ const registrarse = (event) => {
         pass.style.display = "none"
         titulo.style.display = "none"
         //Aparece el segundo formulario
-        rol.style.display = "block"
         titulo2.style.display = "block"
         form2.style.display = "block"
         registraar.style.display = "block"
@@ -29,7 +27,6 @@ const registrarse = (event) => {
 
 const registrar = (event) => {
     if (event.target.nodeName == "INPUT") {
-        rol.style.display = "none"
         titulo2.style.display = "none"
         form2.style.display = "none"
         registraar.style.display = "none"
