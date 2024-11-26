@@ -13,6 +13,10 @@ if (isset($_POST['nombre'])) {
     $usuario = $_POST['nombre'];
 }
 
+//introducimos el nombre del usuario en el array session
+
+$_SESSION['user'] = $usuario;
+
 if (isset($_POST['password'])) {
     $password = $_POST['password'];
 }
