@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+    background-color: red;
+}
+
+.ul__list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.list__link {
+    font-size: 1.5rem;
+    
+    text-decoration: none;
+    color: white;
+}
