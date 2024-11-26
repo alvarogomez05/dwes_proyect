@@ -70,7 +70,7 @@
             </article>
             <article class="card">
                 <h2 class="card__title">Equipos</h2>
-                <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum recusandae neque quis, earum maiores inventore magni laudantium tenetur autem.</p>
+                <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati animi voluptates neque? Possimus pariatur ipsum sint magni quia? Delectus deserunt iure sed ea consectetur natus nobis dolore maiores, amet praesentium!</p>
                 <a href="" class="card__btn">ver equipos</a>
             </article>
             <article class="card">
