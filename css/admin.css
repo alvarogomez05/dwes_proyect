@@ -50,6 +50,9 @@
     align-items: center;
     justify-content: start;
 }
+.aside img{
+    border-radius: 100%;
+}
 .aside__name{
     font-size: 2rem;
     font-variant: small-caps;
@@ -58,7 +61,7 @@
 .aside__box{
     margin-top: 40px;
 }
-.aside__link{
+.aside__link,.card__btn{
     color: white;
     text-decoration: none;
     background-color: red;
@@ -68,13 +71,26 @@
 .aside__link:hover{
     background-color: rgb(255, 93, 93);
 }
+.card__btn:hover{
+    background-color: rgb(255, 93, 93);
+}
 /*Cards*/
 .main{
+    text-align: center;
     display: flex;
     gap: 30px;
     width: 70%;
 }
 .card{
-    border: 1px solid red;
     width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
 }
+
+.card__btn{
+    width: 120px;
+}
+
