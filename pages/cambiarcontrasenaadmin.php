@@ -24,6 +24,8 @@ if ($newpass !== $newpass2) {
     //guardamos el error en el array de session para mostrarselo al cliente
     $_SESSION['errcambiopasswd'] = "Las contraseñas no coinciden, no se realizará el cambio";
 } else {
+    //vaciamos los errores por si hace dos cambios seguidos q no salgan los errores anteriores
+    $_SESSION['errcambiopasswd'] = "";
     // se hace el update en la bdd
     // hacemos una modificación en los datos del usuario
     try {
