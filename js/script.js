@@ -8,6 +8,7 @@ let pass = document.getElementById("contrasena")
 let form2 = document.getElementById("formulario2")
 let titulo2 = document.getElementById("tituloRegistro")
 let volver = document.getElementById("volver")
+
 //Funcion
 
 const registrarse = (event) => {
@@ -41,6 +42,8 @@ const registrar = (event) => {
 const volverLogin = () => {
     location.reload()
 }
+
+
 //Listener
 register.addEventListener("click", registrarse)
 registraar.addEventListener("click", registrar)
