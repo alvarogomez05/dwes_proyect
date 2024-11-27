@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./../css/user.css">
+
     <title>USERS</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./../css/user.css">
 </head>
 
 <body>
@@ -39,7 +40,7 @@
             <!-- imagen del usuario -->
             <img src="../assets/images/user.png" alt="">
             <p class="aside__name">
-                admin
+                Usuario
                 <!-- <?php
 
                         echo $_SESSION['user'];
@@ -82,7 +83,7 @@
             </article>
             <article class="card">
                 <h2 class="card__title">Equipos</h2>
-                <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum recusandae neque quis, earum maiores inventore magni laudantium tenetur autem.</p>
+                <p class="card__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel numquam magnam, unde rerum dolores inventore aliquam. Cum amet nobis veritatis dicta perferendis, omnis inventore minus commodi facere beatae esse eaque?</p>
                 <a href="" class="card__btn">ver equipos</a>
             </article>
             <article class="card">
