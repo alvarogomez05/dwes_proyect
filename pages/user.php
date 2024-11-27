@@ -40,12 +40,12 @@
             <!-- imagen del usuario -->
             <img src="../assets/images/user.png" alt="">
             <p class="aside__name">
-                Usuario
-                <!-- <?php
 
-                        echo $_SESSION['user'];
+                <?php
 
-                        ?> -->
+                echo $_SESSION['user'];
+
+                ?>
             </p>
             <!-- este enlace le permitira al usuario modificar sus credenciales -->
             <!-- Con js al hacer click en este enlace aparecerá la ventana modal con el formulario -->
@@ -55,7 +55,7 @@
                 <a href="cerrar_sesion.php" class="aside__link">Cerrar sesion</a>
             </div>
             <div class="containerForm" id="containerForm">
-                <form class="form" id="form" action="cambiarcontrasena.php" method="post">
+                <form class="form" id="form" action="cambiarcontrasenauser.php" method="post">
                     <div class="bienvenida">
                         <label for="">Hola <?php echo $_SESSION['user'] ?> ¿Quieres cambiar la contraseña?</label>
                         <div>

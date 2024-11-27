@@ -2,12 +2,16 @@
 
 session_start();
 
-if (isset($_POST['nuevacontrasena'])) {
-    $newpass = $_POST['nuevacontrasena'];
+include "./funciones.php";
+
+conectar();
+
+if (isset($_POST['nuevacontraseña'])) {
+    $newpass = $_POST['nuevacontraseña'];
 }
 
-if (isset($_POST['nuevacontrasena2'])) {
-    $newpass2 = $_POST['nuevacontrasena2'];
+if (isset($_POST['nuevacontraseña2'])) {
+    $newpass2 = $_POST['nuevacontraseña2'];
 }
 
 //guardamos el nombre
