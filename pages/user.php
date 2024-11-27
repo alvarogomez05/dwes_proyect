@@ -53,7 +53,19 @@
 
                 <a href="cerrar_sesion.php" class="aside__link">Cerrar sesion</a>
             </div>
+            <div class="containerForm" id="containerForm">
+                <form class="form" id="form" action="cambiarcontrasena.php" method="post">
+                    <label for="">Hola <?php echo $_SESSION['user'] ?>, ¿Quieres cambiar la contraseña?</label>
 
+                    <label for="">Nueva contraseña</label>
+                    <input type="text" name="nuevacontraseña">
+                    <label for="">Repite la contraseña</label>
+                    <input type="text" name="nuevacontraseña2">
+
+                    <button type="submit">Confirmar</button>
+                    <button type="reset">Borrar</button>
+                </form>
+            </div>
 
         </aside>
         <!-- aqui van las opciones que tiene el usuario -->
