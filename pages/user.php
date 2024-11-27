@@ -56,15 +56,24 @@
             </div>
             <div class="containerForm" id="containerForm">
                 <form class="form" id="form" action="cambiarcontrasena.php" method="post">
-                    <label for="">Hola <?php echo $_SESSION['user'] ?>, ¿Quieres cambiar la contraseña?</label>
+                    <div class="bienvenida">
+                        <label for="">Hola <?php echo $_SESSION['user'] ?> ¿Quieres cambiar la contraseña?</label>
+                        <div>
+                            <label for="">Nueva contraseña</label>
+                            <input type="text" name="nuevacontraseña">
+                        </div>
+                    </div>
+                    <div class="repite">
+                        <label for="">Repite la contraseña</label>
+                        <input type="text" name="nuevacontraseña2">
+                    </div>
 
-                    <label for="">Nueva contraseña</label>
-                    <input type="text" name="nuevacontraseña">
-                    <label for="">Repite la contraseña</label>
-                    <input type="text" name="nuevacontraseña2">
 
-                    <button type="submit">Confirmar</button>
-                    <button type="reset">Borrar</button>
+                    <div class="botones">
+                        <button type="submit">Confirmar</button>
+                        <button type="reset">Borrar</button>
+                    </div>
+                    <p class="salir" id="salir">X</p>
                 </form>
             </div>
 
