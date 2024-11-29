@@ -102,10 +102,11 @@
             </article>
         </main>
     </div>
-    <div id="lista_pilotos" style="width: 1200px; margin:0 auto;" class="ocultar">
+    <div id="lista_pilotos" style="width: 1200px; margin:0 auto;">
         <?php
-        include_once "pilotos.php";
-        ?>
+                include_once "pilotos.php";
+                ?>
+
     </div>
 </body>
 <script src="./../js/user.js"></script>

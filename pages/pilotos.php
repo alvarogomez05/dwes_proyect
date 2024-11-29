@@ -56,6 +56,12 @@ try {
               </tr>";
     }
 
+    echo "<tr>
+        <td colspan='4'>
+            <p id='ocultar_lista' style='text-align:center'>Ocultar</p>
+        </td>
+    </tr>";
+
     echo "</tbody></table>";
 } catch (PDOException $excepcion) {
     echo "Error en la consulta de tipo: " . $excepcion->getMessage();
