@@ -90,3 +90,13 @@ input[type="submit"]:hover {
 .titulo {
     display: none;
 }
+
+
+
+.mostrar{
+    display: block;
+}
+
+.ocultar{
+    display: none;
+}

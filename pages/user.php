@@ -83,22 +83,22 @@
             <article class="card">
                 <h2 class="card__title">Puntuaciones</h2>
                 <p class="card__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel numquam magnam, unde rerum dolores inventore aliquam. Cum amet nobis veritatis dicta perferendis, omnis inventore minus commodi facere beatae esse eaque?</p>
-                <a href="" class="card__btn">ver puntos</a>
+                <p id="listar_puntos" class="card__btn">ver puntos</p>
             </article>
             <article class="card">
                 <h2 class="card__title">Pilotos</h2>
                 <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati animi voluptates neque? Possimus pariatur ipsum sint magni quia? Delectus deserunt iure sed ea consectetur natus nobis dolore maiores, amet praesentium!</p>
-                <a href="" class="card__btn">ver pilotos</a>
+                <p id="listar_piloto" class="card__btn">ver pilotos</p>
             </article>
             <article class="card">
                 <h2 class="card__title">Equipos</h2>
                 <p class="card__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel numquam magnam, unde rerum dolores inventore aliquam. Cum amet nobis veritatis dicta perferendis, omnis inventore minus commodi facere beatae esse eaque?</p>
-                <a href="" class="card__btn">ver equipos</a>
+                <p id="listar_equipos" class="card__btn">ver equipos</p>
             </article>
             <article class="card">
                 <h2 class="card__title">Circuitos</h2>
                 <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum in quos fugiat. Expedita maxime corporis laborum, possimus sequi vel dolore unde sint exercitationem. Error distinctio, dolor voluptatum id laborum enim.</p>
-                <a href="" class="card__btn">ver circuitos</a>
+                <p id="listar_circuitos" class="card__btn">ver circuitos</p>
             </article>
         </main>
     </div>
