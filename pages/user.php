@@ -102,7 +102,7 @@
             </article>
         </main>
     </div>
-    <div id="lista_pilotos" style="width: 1200px; margin:0 auto;">
+    <div id="lista_pilotos" style="width: 1200px; margin:0 auto;" class="ocultar">
         <?php
         include_once "pilotos.php";
         ?>
