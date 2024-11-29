@@ -9,7 +9,7 @@ function conectar()
         $pdo = new PDO('mysql:host=localhost;dbname=motogp', 'admin', 'admin');
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         $pdo->exec('SET NAMES "utf8"');
-        echo '<h4>Conexión establecida</h4>';
+        // echo '<h4>Conexión establecida</h4>';
         return $pdo;
     } catch (PDOException $e) {
         echo 'Error en la conexión: ' . $e->getMessage();

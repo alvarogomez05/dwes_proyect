@@ -50,7 +50,7 @@
             <!-- este enlace le permitira al usuario modificar sus credenciales -->
             <!-- Con js al hacer click en este enlace aparecerá la ventana modal con el formulario -->
             <div class="aside__box">
-                <p  class="aside__link" id="info">INFO</p>
+                <p class="aside__link" id="info">INFO</p>
 
                 <a href="cerrar_sesion.php" class="aside__link">Cerrar sesion</a>
             </div>
@@ -101,8 +101,13 @@
                 <a href="" class="card__btn">ver circuitos</a>
             </article>
         </main>
-
+    </div>
+    <div>
+        <?php
+        include_once "pilotos.php";
+        ?>
     </div>
 </body>
-    <script src="./../js/user.js"></script>
+<script src="./../js/user.js"></script>
+
 </html>
