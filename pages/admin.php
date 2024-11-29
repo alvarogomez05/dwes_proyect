@@ -58,7 +58,7 @@
             <div class="containerForm" id="containerForm">
                 <form class="form" id="form" action="cambiarcontrasenauser.php" method="post">
                     <div class="bienvenida">
-                        <label for="">Hola <?php echo $_SESSION['admin'] ?> ¿Quieres cambiar la contraseña?</label>
+                        <label for="">Hola <?php echo $_SESSION['user'] ?> ¿Quieres cambiar la contraseña?</label>
                         <div>
                             <label for="">Nueva contraseña</label>
                             <input type="text" name="nuevacontraseña">
