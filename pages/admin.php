@@ -50,23 +50,33 @@
             <!-- este enlace le permitira al usuario modificar sus credenciales -->
             <!-- Con js al hacer click en este enlace aparecerá la ventana modal con el formulario -->
             <div class="aside__box">
-                <a href="" class="aside__link" id="btn">INFO</a>
+                <p class="aside__link" id="infoo">INFO</p>
 
                 <a href="cerrar_sesion.php" class="aside__link">Cerrar sesion</a>
             </div>
 
             <div class="containerForm" id="containerForm">
-                <form class="form" id="form" action="cambiarcontrasenaadmin.php" method="post">
-                    <label for="">Hola <?php echo $_SESSION['user'] ?>, ¿Quieres cambiar la contraseña?</label>
+                <form class="form" id="form" action="cambiarcontrasenauser.php" method="post">
+                    <div class="bienvenida">
+                        <label for="">Hola <?php echo $_SESSION['admin'] ?> ¿Quieres cambiar la contraseña?</label>
+                        <div>
+                            <label for="">Nueva contraseña</label>
+                            <input type="text" name="nuevacontraseña">
+                        </div>
+                    </div>
+                    <div class="repite">
+                        <label for="">Repite la contraseña</label>
+                        <input type="text" name="nuevacontraseña2">
+                    </div>
 
-                    <label for="">Nueva contraseña</label>
-                    <input type="text" name="nuevacontraseña">
-                    <label for="">Repite la contraseña</label>
-                    <input type="text" name="nuevacontraseña2">
 
-                    <button type="submit">Confirmar</button>
-                    <button type="reset">Borrar</button>
+                    <div class="botones">
+                        <button type="submit">Confirmar</button>
+                        <button type="reset">Borrar</button>
+                    </div>
+                    <p class="salir" id="salir">X</p>
                 </form>
+
             </div>
 
         </aside>
@@ -97,5 +107,6 @@
     </div>
 
 </body>
+<script src="./../js/admin.js"></script>
 
 </html>

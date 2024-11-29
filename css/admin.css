@@ -64,6 +64,8 @@
 
 .aside__box {
     margin-top: 40px;
+    display: flex;
+    gap: 10px;
 }
 
 .aside__link,
@@ -108,3 +110,61 @@
     width: 120px;
 }
 
+/*formulario*/
+
+.form {
+    position: absolute;
+    top: 250px;
+    left: 730px;
+    background-color: #f2f2f2;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.384);
+    width: 800px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    gap: 20px;
+}
+
+.bienvenida input {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.repite input {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.botones {
+    display: flex;
+    gap: 10px;
+}
+
+.botones button {
+    color: white;
+    border: none;
+    padding: 20px;
+    background-color: red;
+}
+
+.botones button:hover {
+    cursor: pointer;
+    background-color: rgb(255, 93, 93);
+}
+
+.salir {
+    position: relative;
+    top: -260px;
+    left: 400px;
+    background-color: #919191;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.salir:hover {
+    cursor: pointer;
+}
