@@ -27,24 +27,22 @@ if (isset($_GET['nombre']) && isset($_GET['apellido'])) {
             <label for="">Nombre:</label>
             <!-- nombre del piloto -->
             <span><?php
-                    echo "Ricardo";
-                    // echo $nombre;
+                    echo $nombre;
                     ?></span>
             <input type="hidden" name="nombre" value="<?php
                                                         //el value tamben es el nombre del piloto
-                                                        // echo $nombre;
+                                                        echo $nombre;
                                                         ?>">
         </div>
         <div>
             <label for="">Apellidos:</label>
             <!-- apellidos del piloto -->
             <span><?php
-                    echo "de la Hoz";
-                    // echo $apellido;
+                    echo $apellido;
                     ?></span>
             <input type="hidden" name="apellidos" value="<?php
                                                             //el value tambien es el apellido del piloto
-                                                            // echo $apellido;
+                                                            echo $apellido;
                                                             ?>">
         </div>
         <div>
