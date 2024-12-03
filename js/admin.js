@@ -8,6 +8,9 @@ let listar_piloto = document.getElementById("listar_piloto")
 let lista_circuitos = document.getElementById("lista_circuitos")
 //Boton
 let listar_circuitos = document.getElementById("listar_circuitos")
+
+//Modal Circuitos
+let modalCircuito = document.getElementById("modalCircuito")
 const mostrarModal = (event) => {
     if (event.target.nodeName == "P") {
         form.style.display = "flex"
@@ -30,12 +33,12 @@ const mostrarLista = (event) => {
 
 const ocultarLista = () => {
     lista_pilotos.style.display = "none"
-     lista_circuitos.style.display="none"
+    lista_circuitos.style.display = "none"
 }
 
 const mostarModalCircuitos = (event) => {
     if (event.target.nodeName == "P") {
-        lista_circuitos.style.display = "block"
+        modalCircuito.style.display = "block"
         console.log("listar C")
     }
 }

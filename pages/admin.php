@@ -79,6 +79,28 @@
 
             </div>
 
+            <div class="containerForm" id="modalCircuito">
+                <form class="form" id="form" action="cambiarcontrasenauser.php" method="post">
+                    <div class="bienvenida">
+                        <label for="">Hola <?php echo $_SESSION['user'] ?> ¿Que circuito quieres listar?</label>
+                        <div>
+                                <select name="circuito_nombre" id="">
+                                    <option value="">Europa</option>
+                                    <option value="">Asia</option>
+                                    <option value="">America</option>
+                                    <option value="">Oceania</option>
+                                </select>
+                        </div>
+                    </div>
+                    <div class="botones">
+                        <button type="submit">Confirmar</button>
+                        <button type="reset">Borrar</button>
+                    </div>
+                    <p class="salir" id="salir">X</p>
+                </form>
+
+            </div>
+
         </aside>
         <!-- aqui van las opciones que tiene el usuario -->
         <main class="main">
