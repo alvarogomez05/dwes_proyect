@@ -80,20 +80,20 @@
             </div>
 
             <div class="containerForm" id="">
-                <form class="form" id="modalCircuito" action="cambiarcontrasenauser.php" method="post">
+                <form class="form" id="modalCircuito" action="circuitos.php" method="post">
                     <div class="bienvenida">
                         <label for="">Hola <?php echo $_SESSION['user'] ?> ¿Que circuito quieres listar?</label>
                         <div>
-                            <select name="circuito_nombre" id="">
-                                <option value="">Europa</option>
-                                <option value="">Asia</option>
-                                <option value="">America</option>
-                                <option value="">Oceania</option>
+                            <select name="continente" id="">
+                                <option value="Europa">Europa</option>
+                                <option value="Asia">Asia</option>
+                                <option value="America">America</option>
+                                <option value="Oceania">Oceania</option>
                             </select>
                         </div>
                     </div>
                     <div class="botones">
-                        <button type="submit">Confirmar</button>
+                        <button type="submit" id="btn_circuitos">Confirmar</button>
                         <button type="reset">Borrar</button>
                     </div>
                     <p class="salir" id="salir">X</p>
@@ -132,12 +132,7 @@
         ?>
 
     </div>
-    <div id="lista_circuitos" style="width: 1200px; margin:0 auto;">
-        <?php
-        include_once "circuitos.php";
-        ?>
 
-    </div>
 </body>
 <script src="./../js/admin.js"></script>
 

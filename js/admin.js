@@ -3,6 +3,7 @@ let info = document.getElementById("infoo")
 let salir = document.getElementById("salir")
 let lista_pilotos = document.getElementById("lista_pilotos")
 let listar_piloto = document.getElementById("listar_piloto")
+let btn_circuitos = document.getElementById("btn_circuitos")
 
 //Div contenedor 
 let lista_circuitos = document.getElementById("lista_circuitos")
@@ -43,9 +44,14 @@ const mostarModalCircuitos = (event) => {
     }
 }
 
+const mostrarCircuitos = () => {
+    lista_circuitos.style.display = "block";
+}
+
 document.addEventListener("DOMContentLoaded", ocultarLista)
 listar_piloto.addEventListener("click", mostrarLista)
 salir.addEventListener("click", cerrarModal)
 info.addEventListener("click", mostrarModal)
 
 listar_circuitos.addEventListener("click", mostarModalCircuitos)
+btn_circuitos.addEventListener("click", mostrarCircuitos)

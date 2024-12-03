@@ -1,8 +1,18 @@
 <?php
+
+include "./funciones.php";
+
+conectar();
+
+
+if (isset($_POST['continente'])) {
+    $continente = $_POST['continente'];
+}
+
 //conectamos la bdd
 
 try {
-    $sql = "SELECT * FROM circuitos";
+    $sql = "SELECT * FROM circuitos WHERE continente = '$continente'";
     $lista = $pdo->query($sql);
 
     // Estilos CSS para la tabla
@@ -56,3 +66,21 @@ try {
 } catch (PDOException $excepcion) {
     echo "Error en la consulta de tipo: " . $excepcion->getMessage();
 }
+
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <a href="./admin.php">VOLVER</a>
+</body>
+
+</html>
