@@ -100,7 +100,7 @@
             <article class="card">
                 <h2 class="card__title">Circuitos</h2>
                 <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum in quos fugiat. Expedita maxime corporis laborum, possimus sequi vel dolore unde sint exercitationem. Error distinctio, dolor voluptatum id laborum enim.</p>
-                <p href="" class="card__btn">ver circuitos</p>
+                <p class="card__btn" id="listar_circuitos">ver circuitos</p>
             </article>
         </main>
     </div>
