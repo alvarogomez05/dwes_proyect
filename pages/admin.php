@@ -1,3 +1,9 @@
+<?php
+include "./funciones.php";
+
+conectar();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -130,9 +136,7 @@
         <?php
         include_once "pilotosadmin.php";
         ?>
-
     </div>
-
 </body>
 <script src="./../js/admin.js"></script>
 

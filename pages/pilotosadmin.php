@@ -1,9 +1,6 @@
 <?php
 
-include "./funciones.php";
 
-//conectamos la bdd
-conectar();
 
 
 try {
