@@ -79,17 +79,17 @@
 
             </div>
 
-            <div class="containerForm" id="modalCircuito">
-                <form class="form" id="form" action="cambiarcontrasenauser.php" method="post">
+            <div class="containerForm" id="">
+                <form class="form" id="modalCircuito" action="cambiarcontrasenauser.php" method="post">
                     <div class="bienvenida">
                         <label for="">Hola <?php echo $_SESSION['user'] ?> ¿Que circuito quieres listar?</label>
                         <div>
-                                <select name="circuito_nombre" id="">
-                                    <option value="">Europa</option>
-                                    <option value="">Asia</option>
-                                    <option value="">America</option>
-                                    <option value="">Oceania</option>
-                                </select>
+                            <select name="circuito_nombre" id="">
+                                <option value="">Europa</option>
+                                <option value="">Asia</option>
+                                <option value="">America</option>
+                                <option value="">Oceania</option>
+                            </select>
                         </div>
                     </div>
                     <div class="botones">
