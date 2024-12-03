@@ -64,9 +64,6 @@ try {
 
 
     echo "</tbody></table>";
-    echo "
-            <button id='ocultar_lista' style='text-align:center'>Ocultar</button>
-        ";
 } catch (PDOException $excepcion) {
     echo "Error en la consulta de tipo: " . $excepcion->getMessage();
 }

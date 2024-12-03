@@ -110,6 +110,12 @@
         ?>
 
     </div>
+    <div id="lista_circuitos" style="width: 1200px; margin:0 auto;">
+        <?php
+        include_once "circuitos.php";
+        ?>
+
+    </div>
 </body>
 <script src="./../js/admin.js"></script>
 

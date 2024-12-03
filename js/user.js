@@ -27,6 +27,7 @@ const mostrarLista = (event) => {
 const ocultarLista=()=>{
     lista_pilotos.style.display="none"
 }
+
 document.addEventListener("DOMContentLoaded",ocultarLista)
 listar_piloto.addEventListener("click", mostrarLista)
 salir.addEventListener("click", cerrarModal)
