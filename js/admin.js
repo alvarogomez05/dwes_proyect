@@ -35,6 +35,7 @@ const ocultarLista = () => {
 
 const mostarModalCircuitos = (event) => {
     if (event.target.nodeName == "P") {
+        lista_circuitos.style.display = "block"
         console.log("listar C")
     }
 }
