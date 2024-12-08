@@ -34,7 +34,6 @@ const mostrarLista = (event) => {
 
 const ocultarLista = () => {
     lista_pilotos.style.display = "none"
-    lista_circuitos.style.display = "none"
 }
 
 const mostarModalCircuitos = (event) => {
